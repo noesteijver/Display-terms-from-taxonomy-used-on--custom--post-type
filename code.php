@@ -11,7 +11,7 @@
 global $wp_query;
 
 $args = array(
-  'post_type'    => '[your taxonomy]' //[your taxonomy] can be 'post' or any other custom post type
+	'post_type'    => '[your taxonomy]' //[your taxonomy] can be 'post' or any other custom post type
 );
 query_posts($args);
  
